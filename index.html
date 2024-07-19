@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navbar">
+                <i class="fa-solid fa-bars" id="bars"></i>
+                <ul class="list">
+                    <li class="list-item"><a href="http://">Louer une voiture</a></li>
+                    <li class="list-item"><a href="http://">Louer un utilitaire</a></li>
+                    <li class="list-item"><a href="http://">Réserver un chauffeur</a></li>
+                    <li class="list-item"><a href="http://">Découvrez nos agences</a></li>
+                    <li class="list-item"><a href="http://">Mon compt</a></li>
+                    <li class="list-item"><a href="http://">Contact</a></li>
+                </ul>
+                <h1 .title>Bienvenue à bord</h1>
+                <p>Location de voiture 24/24 et 7j/7</p>
+            </div>
+        </div>
+        <div class="selection-list">
+            <select>
+                <option value="">Adresse de depart</option>
+                <option value="">Paris</option>
+                <option value="">Lile</option>
+                <option value="">Strasbourg</option>
+                <option value="">Lyon</option>
+            </select>
+            <div class="date-debut">
+                <label for="start-date" class="date-label">Date de debut</label>
+                <input type="date" id="start-date">
+            </div>
+
+            <div class="date-fin"><label for="start-date" class="date-label">Date de fin</label>
+                <input type="date" id="start-date">
+            </div>
+            <button>Valider ma recherche</button>
+        </div>
+    </div>
+    <div class="cars-row">
+        <div class="car-row">
+            <div class="img-box">
+                <i class="fa-solid fa-caret-left" id="first-car-left-side"></i>
+                <img src="images/vehicule1.png" alt="car" id="first-car">
+                <i class="fa-solid fa-caret-right" id="first-car-right-side"></i>
+            </div>
+            <div class="car-desc" id="first-car-description">
+                <h3 class="car-name">Peugeot 208</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                <p>999€ Agence de Paris</p>
+                <button id="first-reserve-btn">Réserver et payer</button>
+            </div>
+        </div>
+
+        <div class="car-row">
+            <div class="img-box">
+                <i class="fa-solid fa-caret-left" id="second-car-left-side"></i>
+                <img src="images/vehicule2.png" alt="car" id="second-car">
+                <i class="fa-solid fa-caret-right" id="second-car-right-side"></i>
+            </div>
+            <div class="car-desc" id="second-car-description">
+                <h3 class="car-name">Peugeot 208</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                <p>999€ Agence de Paris</p>
+                <button id="second-reserve-btn">Réserver et payer</button>
+            </div>
+        </div>
+
+        <div class="car-row">
+            <div class="img-box">
+                <i class="fa-solid fa-caret-left" id="third-car-left-side"></i>
+                <img src="images/vehicule3.png" alt="car" id="third-car">
+                <i class="fa-solid fa-caret-right" id="third-car-right-side"></i>
+            </div>
+            <div class="car-desc" id="third-car-description">
+                <h3 class="car-name">Peugeot 208</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                <p>999€ Agence de Paris</p>
+                <button id="third-reserve-btn">Réserver et payer</button>
+            </div>
+        </div>
+
+        <div class="car-row">
+            <div class="img-box">
+                <i class="fa-solid fa-caret-left" id="fourth-car-left-side"></i>
+                <img src="images/vehicule4.png" alt="car" id="fourth-car">
+                <i class="fa-solid fa-caret-right" id="fourth-car-right-side"></i>
+            </div>
+            <div class="car-desc" id="fourth-car-description">
+                <h3 class="car-name">Peugeot 208</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                <p>999€ Agence de Paris</p>
+                <button id="fourth-reserve-btn">Réserver et payer</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="img-box">
+                <img src="images/agence.jpg" alt="agence">
+            </div>
+            <div class="desc">
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>07 222 01 04</p>
+                <p>Lorem, ipsum dolor</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="jjj.js"></script>
+</body>
+</html>
